@@ -6,9 +6,9 @@ Este projeto implementa um interpretador de linguagem Assembly simplificada com 
 | Módulo                 | Responsável | Função principal                                                | Dependências                  |
 |------------------------|--------------|-----------------------------------------------------------------|-------------------------------|
 | ListaEncadeada.java    | -     | Implementa nós e operações básicas da lista (inserir, remover, atualizar, listar). | Nenhuma                       |
-| Arquivo.java           | -     | Carrega e salva arquivos .ed1 da linguagem.                    | ListaEncadeada                |
-| Interpretador.java     | -     | Executa as instruções da linguagem (mov, add, jnz, etc.).      | ListaEncadeada                |
-| Validador.java         | -     | Garante que comandos, registradores e linhas sejam válidos.    | Opcional                      |
+| Arquivo.java           | Diogo     | Carrega e salva arquivos .ed1 da linguagem.                    | ListaEncadeada                |
+| Interpretador.java     |   Gustavo   | Executa as instruções da linguagem (mov, add, jnz, etc.).      | ListaEncadeada                |
+| Validador.java         | Henrique     | Garante que comandos, registradores e linhas sejam válidos.    | Opcional                      |
 | Main.java (REPL)       | -     | Controla entrada do usuário, interpreta comandos e conecta módulos. | Todos os anteriores          |
 -------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -49,12 +49,7 @@ public class Arquivo{
         escreverNoRecursivo(atual.getProx(), writer);
     }
     
-    /**
-     * Método público para iniciar a escrita recursiva.
-     * @param nomeArquivo O nome do arquivo onde escrever.
-     * @param head O primeiro nó (cabeça) da lista encadeada.
-     * @param append Se true, anexa; se false, sobrescreve.
-     */
+
     public static <T> void escreverRecursivo(String nomeArquivo, Node<T> head, boolean append) {
         if (head == null) {
             System.out.println("A lista está vazia, nada a escrever.");
